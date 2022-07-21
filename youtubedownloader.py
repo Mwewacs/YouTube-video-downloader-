@@ -1,7 +1,7 @@
 #import the package
 from pytube import YouTube
 
-url= ""
+url= input("paste a video link here")
 my_video=YouTube(url)
 
 print("-------------------video title----------------------")
